@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+h1{
+    font-size: 35px;
+margin-bottom: 10px;
+}
+
+input{
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+button{
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+
+button:hover{
+    background-color: darkgray;
+}
+
+ul{
+    padding-left: 15px;
+    margin-top: 12px;
+}
+
+li{
+    list-style: decimal;
+}
